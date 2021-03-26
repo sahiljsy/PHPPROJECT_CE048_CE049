@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 26, 2021 at 01:55 PM
+-- Generation Time: Mar 26, 2021 at 03:33 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.1
 
@@ -48,11 +48,9 @@ INSERT INTO `music_songs` (`id`, `name`, `filename`, `pathofmusicfile`, `pathofi
 (9, 'Meri Aashiqui Rochak Kohli, Jubin Nautiyal Ihana D Shree Anwar Sagar Bhushan Kumar.mp3', 'Meri Ashiqui', 'musicfiles/Meri Aashiqui Rochak Kohli, Jubin Nautiyal Ihana D Shree Anwar Sagar Bhushan Kumar.mp3', 'imagefiles/Screenshot from 2021-03-09 22-44-33.png', 'JSY'),
 (11, 'Radha rani lage .. best voice... official ...mp3', 'Radha rani lage', 'musicfiles/Radha rani lage .. best voice... official ...mp3', 'imagefiles/Screenshot from 2021-03-09 22-48-24.png', 'JSY'),
 (12, 'Perfect - Ed Sheeran.mp3', 'Perfect', 'musicfiles/Perfect - Ed Sheeran.mp3', 'imagefiles/Screenshot from 2021-03-09 23-01-59.png', 'JSY'),
-(13, 'Buddhu Sa Mann – Kapoor & Sons Sidharth Alia Fawad Rishi Kapoor Armaan Amaal.mp3', 'Buddhu sa maan ', 'musicfiles/Buddhu Sa Mann – Kapoor & Sons Sidharth Alia Fawad Rishi Kapoor Armaan Amaal.mp3', 'imagefiles/Screenshot from 2021-03-09 23-05-59.png', 'JSYYY'),
 (14, 'The Chainsmokers - Closer ft. Halsey.mp3', 'Closer', 'musicfiles/The Chainsmokers - Closer ft. Halsey.mp3', 'imagefiles/Screenshot from 2021-03-09 23-08-16.png', 'JSYYY'),
 (15, '🎺 Cold mess - Prateek Kuhad.mp3', 'Cold mess', 'musicfiles/🎺 Cold mess - Prateek Kuhad.mp3', 'imagefiles/Screenshot from 2021-03-09 23-10-55.png', 'JSYYY'),
 (16, 'ily i love you baby - Surf Mesa feat. Emilee.mp3', 'ily', 'musicfiles/ily i love you baby - Surf Mesa feat. Emilee.mp3', 'imagefiles/Screenshot from 2021-03-09 23-13-24.png', 'JSYYY'),
-(17, 'LOVE MASHUP 2018 - HINDI ENGLISH MIX SONGS - HINDI ENGLISH MASHUP - HINDI REMIX MASHUP SONGS.mp3', 'Hindi English mashup', 'musicfiles/LOVE MASHUP 2018 - HINDI ENGLISH MIX SONGS - HINDI ENGLISH MASHUP - HINDI REMIX MASHUP SONGS.mp3', 'imagefiles/Screenshot from 2021-03-09 23-17-39.png', 'JSYYY'),
 (18, '🎺 Cold mess - Prateek Kuhad.mp3', 'defrt', 'musicfiles/🎺 Cold mess - Prateek Kuhad.mp3', 'imagefiles/x.jpg', 'JSY');
 
 --
