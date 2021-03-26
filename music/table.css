@@ -1,0 +1,115 @@
+body
+{ 
+	font: 14px sans-serif;
+	background-image: url("https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container 
+{
+	width: 500px;
+	border-radius: 5px;
+	background-color: rgb(240, 240, 240);
+	padding: 20px;
+	opacity: 0.9;
+}
+div.container h5 
+{
+	margin: 5%;
+	font-weight: bold;
+	color: green;
+}
+div.container label 
+{
+	margin: 5%;
+	font-weight: bold;
+	font-size: large;
+	color: black;
+}
+.wrapper
+{ 
+	width: 350px; 
+	padding: 20px;
+}
+ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+}
+li 
+{
+	float: left;
+}
+
+li a 
+{
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: transform .2s;
+}
+li a:hover:not(.active) {
+  background-color: white;
+  transform: scale(1.2);
+}
+h1{
+	text-shadow:1px 2px blue;
+}
+.active 
+{
+	background-color: #45a049;
+}
+.footer 
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-shadow:1px 2px red;
+	text-align: center;
+}
+.circular
+{
+	text-align: left;
+	border-radius: 50%;
+}
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+	table 
+{
+	width: 90%;
+}
+th 
+{
+	height: 50px;
+	border: 3px solid ;
+	padding: 8px;
+}
+tr
+{
+	height: 50px;
+	border: 3px solid ;
+	padding: 8px;
+}
+td 
+{
+	border: 3px solid ;
+	padding: 8px;
+}

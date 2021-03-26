@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg"); 
+  	background-position: center;
+   	background-repeat: no-repeat;
+  	background-size: cover;
+	font-family: 'Blinker', sans-serif; 
+	font-size: 16px;
+	width: 100%;
+	overflow-x: scroll;
+	font-weight:200;
+		
+}
+.container
+{
+	padding:40px;
+	max-width:100%;
+	row-gap:40px;
+}
+	
+.row
+{
+	margin:40px;
+	padding: 20px;
+	gap:60px;
+	text-align: center;
+}
+
+.col
+{
+	border: 6px white;
+	border-style: solid;
+	border-radius: 25px;
+	background-color: black;
+	max-width: 320px;
+	height:475px;
+}
+
+.center
+{
+	margin: 10px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+ 	border: black;
+}
+
+.image img
+{
+	border-radius: 50%;
+}
+
+.btns 
+{
+	margin: 15px 0px 4px -7px;
+	text-align: center;
+}
+
+.btns a
+{
+	color: black;
+	font-size: 1.8em;
+	transition: all 0.3s ease-in-out;
+	max-width: 240px;
+}
+
+.Text
+{
+	color:white;
+}
+
+ul {
+  	list-style-type: none;
+  	margin: 0;
+ 	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+  	top: 0;
+}
+
+li 
+{
+	float: left;
+}
+
+li a 
+{
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: transform .2s;
+}
+
+li a:hover 
+{
+	background-color: white;
+  	transform: scale(1.2);
+}
+
+.active 
+{
+	background-color: #45a049;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size:17pt;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    max-height: 50%;
+    border-radius: 4px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:auto;
+  }
+  
+  form.example button:hover {
+    background: #50f073;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
