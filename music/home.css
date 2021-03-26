@@ -1,0 +1,191 @@
+body
+{ 
+	font: 14px sans-serif;
+	background-image: url("https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container 
+{
+	width: 500px;
+	border-radius: 5px;
+	background-color: rgb(240, 240, 240);
+	padding: 20px;
+	opacity: 0.9;
+}
+div.container h5 
+{
+	margin: 5%;
+	font-weight: bold;
+	color: green;
+}
+div.container label 
+{
+	margin: 5%;
+	font-weight: bold;
+	font-size: large;
+	color: black;
+}
+.wrapper
+{ 
+	width: 350px; 
+	padding: 20px;
+}
+ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+}
+li 
+{
+	float: left;
+}
+
+li a 
+{
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: transform .2s;
+}
+li a:hover:not(.active) {
+  background-color: white;
+  transform: scale(1.2);
+}
+h1{
+	text-shadow:1px 2px blue;
+}
+.active 
+{
+	background-color: #45a049;
+}
+.footer 
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-shadow:1px 2px red;
+	text-align: center;
+}
+.circular
+{
+	text-align: left;
+	border-radius: 50%;
+}
+
+audio 
+{ 
+	filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+	border-radius: 4px; 
+}
+p
+{
+	font-family: "Georgia", "Cursive", "Times New Roman", serif;
+	font-style: oblique;
+	font-size: 20px;
+	color: black;
+}
+h3{
+	font-family: "Georgia", "Cursive", "Times New Roman", serif;
+	font-style: oblique;
+	text-decoration: underline;
+}
+.row{
+	margin:40px;
+	padding: 20px;
+	gap:60px;
+	text-align: center;
+}
+
+.col{
+	border: 1px white;
+	border-style: inset;
+	border-radius: 25px;
+	background-color: black;
+	max-width: 320px;
+	height:275px;
+	opacity:.9;
+}
+
+.center{
+	margin: 10px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+ 	border: black;
+}
+.Text{
+	color:white;
+	font-family: "Georgia", "Cursive", "Times New Roman", serif;
+	font-style: oblique;
+	font-size: 20px;
+	padding: 5px
+}
+.image img{
+	border-radius: 50%;
+}
+.btns {
+	margin: 15px 0px 4px -7px;
+	text-align: center;
+}
+
+.btns a{
+	color: black;
+	font-size: 1.8em;
+	transition: all 0.3s ease-in-out;
+	max-width: 240px;
+}
+.box
+{
+	width: 100%;
+  	padding: 10px;
+  	border: 1px solid ;
+  	margin: 0;
+  	background-color:black;
+  	color: white;
+  	text-align: left;
+  	opacity:0.8;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size:17pt;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    max-height: 50%;
+    border-radius: 4px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:auto;
+  }
+  
+  form.example button:hover {
+    background: #50f073;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
