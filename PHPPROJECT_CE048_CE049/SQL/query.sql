@@ -2,10 +2,10 @@
 -- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Mar 26, 2021 at 06:21 PM
+-- Host: 127.0.0.1
+-- Generation Time: Mar 28, 2021 at 12:45 PM
 -- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.1
+-- PHP Version: 8.0.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sahil`
+-- Database: `dm_project`
 --
 
 -- --------------------------------------------------------
@@ -39,7 +39,8 @@ CREATE TABLE `query` (
 --
 
 INSERT INTO `query` (`username`, `email`, `subject`, `query`) VALUES
-('JSY', 'abfhvjvbjb@g.com', 'trying....', 'nothing');
+('AakarshCE', 'inamdaraakarsh@gmail.com', 'Music', 'Nice Music'),
+('InamdarAakarsh', 'larvtry@gmail.com', 'Music', 'How can we play the music');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

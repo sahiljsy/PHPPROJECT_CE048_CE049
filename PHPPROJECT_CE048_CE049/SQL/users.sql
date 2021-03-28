@@ -2,10 +2,10 @@
 -- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Mar 26, 2021 at 01:53 PM
+-- Host: 127.0.0.1
+-- Generation Time: Mar 28, 2021 at 12:45 PM
 -- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.1
+-- PHP Version: 8.0.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sahil`
+-- Database: `dm_project`
 --
 
 -- --------------------------------------------------------
@@ -48,11 +48,15 @@ INSERT INTO `users` (`id`, `name`, `username`, `password`, `email`, `phone`, `ag
 (10, 'JARIWALA SAHIL', 'JSY', '$2y$10$UunfDRHRSgvR819K7fhA0.6WO1qScX8OzMlrrR4UpaLmfS6h2A5k6', 'sahil@gmail.com', '9876543210', 18, 'user', 'userimage/pexels-pixabay-531321.jpg'),
 (11, 'SAHIL YOGESHKUMAR JARIWALA', 'admin_sahilJSY', '$2y$10$JlRrVByQAXnTIOag/xf6Huwt6U0YBABrXO3nA6WDDbbZvF3JkpQTi', 'abfhvjvbjb@g.com', '9876543210', 18, 'admin', 'userimage/defualt_image.png'),
 (13, 'sahil jariwala', 'xyz', '$2y$10$d4Xxn5GNJXFJNQXQ6BS0h.7Bx1YWz.vtVLL1UZRepYX//vdLd.zNq', 'abc@g.com', '9876543210', 19, 'user', 'userimage/pexels-pixabay-326055.jpg'),
-(14, NULL, 'POR', '$2y$10$jkKCpe3yTsbuASrC7Tzq1.P1Nj4f2o2D0tV0ExqdGLFoWlzIg4qnW', 'abfhvjvbjb@g.com', NULL, NULL, 'user', 'userimage/defualt_image.png'),
-(15, '', 'def', '$2y$10$UYGYVm8btj.kk8QSKExzXeAXTZxl2OY8YcuPlkGW3idyd2I54xexC', '', '', 0, 'user', 'userimage/defualt_image.png'),
-(16, 'sahil jariwala', 'lmn', '$2y$10$VJ63l7eML5LmvQQPbffD5e9i3wcHtBcx.gCnXH0vh1Is4UyRvG9ru', 'abc', '63557803', 20, 'user', 'userimage/defualt_image.png'),
-(17, 'sahil', 'ghj', '$2y$10$7p5fL.0PqM4gcJdTGgko7OwvZBwLb7zpA0aJ0Rl/u1f9bRHSfJkHi', 'abc@g.com', '63557803', 21, 'user', 'userimage/defualt_image.png'),
-(18, '', 'abc', '$2y$10$4FsTMaywJ13D84CcBZdZ/utJmBLmtcrMl4UUpReOapJS4.tJl4qrC', 'abc@g.com', '1234567890', 0, 'user', 'userimage/defualt_image.png');
+(14, 'Aakarsh', 'POR', '$2y$10$xMM7PdVW4widNv2WEdIkDOeAqzn3HQkm8822nveN.7Om9Od5Lc3dm', 'larvtry@gmail.com', '1234567890', 19, 'user', 'userimage/defualt_image.png'),
+(15, 'Aakarsh Inamdar', 'def', '$2y$10$UYGYVm8btj.kk8QSKExzXeAXTZxl2OY8YcuPlkGW3idyd2I54xexC', 'larvtry@gmail.com', '1234567890', 12, 'user', 'userimage/defualt_image.png'),
+(16, 'sahil jariwala', 'lmn', '$2y$10$VJ63l7eML5LmvQQPbffD5e9i3wcHtBcx.gCnXH0vh1Is4UyRvG9ru', 'abc', '6355780354', 20, 'user', 'userimage/defualt_image.png'),
+(17, 'sahil', 'ghj', '$2y$10$7p5fL.0PqM4gcJdTGgko7OwvZBwLb7zpA0aJ0Rl/u1f9bRHSfJkHi', 'larvtry@gmail.com', '63557803900', 17, 'user', 'userimage/defualt_image.png'),
+(18, 'abc', 'abc', '$2y$10$4FsTMaywJ13D84CcBZdZ/utJmBLmtcrMl4UUpReOapJS4.tJl4qrC', 'abc@g.com', '1234567890', 12, 'user', 'userimage/defualt_image.png'),
+(19, 'Aakarsh', 'admin_InamdarAakarsh', '$2y$10$dApeXGuNJOkrj/VKJuPKneLB.PnvCLcQdKtv2kakDl0wsplt6kXPO', 'inamdaraakarsh@gmail.com', '+918320758348', 20, 'admin', 'userimage/IMG_20200904_122126.jpg'),
+(20, 'Aakarsh', 'AakarshCE', '$2y$10$dApeXGuNJOkrj/VKJuPKneLB.PnvCLcQdKtv2kakDl0wsplt6kXPO', 'inamdaraakarsh@gmail.com', '+918320758348', 20, 'user', 'userimage/defualt_image.png'),
+(21, 'Aakarsh Inamdar', 'Aakarsh', '$2y$10$8CGrCigvntqXehlSSH2eIuWubI7UfW1e5gULBysb2BT3Jdke8RnWy', 'inamdaraakarsh@gmail.com', '1234567890', 20, 'user', 'userimage/defualt_image.png'),
+(24, 'Aakarsh', 'admin_Aakarsh_Inamdar', '$2y$10$dApeXGuNJOkrj/VKJuPKneLB.PnvCLcQdKtv2kakDl0wsplt6kXPO', 'inamdaraakarsh@gmail.com', '+918320758348', 20, 'admin', 'userimage/defualt_image.png');
 
 --
 -- Indexes for dumped tables
@@ -73,7 +77,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -116,7 +116,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <li style="float: right"><a  href="register.php">Register</a></li>
   </h4>
 </ul>
-<br><br>
+<br><br><br><br>
 <center>
 <div class="container">
     <div class="wrapper">
@@ -137,10 +137,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
             <h5>Don't have an account? <a href="register.php">Sign up now</a>.</h5>
-            <h5> <a href="forgot.php">Forgot Password?</a></h5>
+	    <h5> <a href="forgot.php">Forgot Password?</a></h5>
         </form>
     </div>
     </div>
-    </center>    
+    </center><br><br>
 </body>
 </html>

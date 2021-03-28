@@ -11,9 +11,12 @@ if($_SESSION["user_type"] == "user")
 	header("location: home.php");
     	exit;
 }
- $id = $_GET['id'];
+if($_SERVER["REQUEST_METHOD"] == "GET")
+{
+	$id = $_GET['id'];
+}
 // Define variables and initialize with empty values
-$name = $emial = $mobile = $age = "";
+$name = $email = $mobile = $age = "";
 $update_msg = "";
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST")
@@ -24,7 +27,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     $age = trim($_POST["age"]);
     $id = trim($_POST['id']);
         // Prepare an insert statement
-        $sql = "UPDATE users SET name=?,email=?,mobile=?,age=? where id=?"; 
+        $sql = "UPDATE users SET name=?,email=?,phone=?,age=? where id=?"; 
          
         if($stmt = mysqli_prepare($link, $sql))
         {
@@ -85,7 +88,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 							$name = $row['name'];
 							$username = $row['username'] ;
 							$age = $row['age'];
-							$mobile = $row['mobile'] ;
+							$mobile = $row['phone'] ;
 							$email = $row['email'] ;
 								
 						}

@@ -78,14 +78,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 
     function validate_phone_number($phone)
     {
-	     // Check the length of number
+	// Check the length of number
         // This can be customized if you want phone number from a specific country
         $filtered_phone_number = filter_var($phone, FILTER_SANITIZE_NUMBER_INT);
         // Remove "-" from number
         $phone_to_check = str_replace("-", "", $filtered_phone_number);
         // Check the lenght of number
         // This can be customized if you want phone number from a specific country
-        if (strlen($phone_to_check) < 10 || strlen($phone_to_check) > 14) {
+        if ((strlen($phone_to_check) < 10 || strlen($phone_to_check) > 14) && !empty($phone)) {
             return false;
         } else {
             return true;
@@ -94,7 +94,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 
     function validate_age($age)
     {
-        if(($age <= 0 || $age >= 120) && !empty($age))
+        if(($age < 0 || $age >= 120) && !empty($age))
         {
             return false;
         }
@@ -113,7 +113,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
         $age_error = "Invalid age given.";
     }
 
-    if($_FILES['image']['type'] != 'image/jpeg' && $_FILES['image']['type'] != 'image/jpg' && $_FILES['image']['type'] != 'image/png')
+    if($_FILES['image']['type'] != 'image/jpeg' && $_FILES['image']['type'] != 'image/jpg' && $_FILES['image']['type'] != 'image/png' && empty($_FILES))
     {
 	$image_error = "Invalid image file format";
     }
@@ -260,6 +260,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>
     </div>   </div>
-    </center>
+    </center><br><br>
 </body>
 </html>
