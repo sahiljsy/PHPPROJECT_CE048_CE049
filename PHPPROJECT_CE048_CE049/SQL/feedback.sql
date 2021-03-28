@@ -2,10 +2,10 @@
 -- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Mar 26, 2021 at 03:49 PM
+-- Host: 127.0.0.1
+-- Generation Time: Mar 28, 2021 at 12:44 PM
 -- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.1
+-- PHP Version: 8.0.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sahil`
+-- Database: `dm_project`
 --
 
 -- --------------------------------------------------------
@@ -38,7 +38,9 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`username`, `ratings`, `suggestion`) VALUES
-('JSY', 4, '');
+('AakarshCE', 4, ''),
+('AakarshCE', 4, 'Great and easy to use'),
+('InamdarAakarsh', 3, 'Can do better');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -2,10 +2,10 @@
 -- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Mar 26, 2021 at 03:33 PM
+-- Host: 127.0.0.1
+-- Generation Time: Mar 28, 2021 at 12:45 PM
 -- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.1
+-- PHP Version: 8.0.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sahil`
+-- Database: `dm_project`
 --
 
 -- --------------------------------------------------------
@@ -51,7 +51,10 @@ INSERT INTO `music_songs` (`id`, `name`, `filename`, `pathofmusicfile`, `pathofi
 (14, 'The Chainsmokers - Closer ft. Halsey.mp3', 'Closer', 'musicfiles/The Chainsmokers - Closer ft. Halsey.mp3', 'imagefiles/Screenshot from 2021-03-09 23-08-16.png', 'JSYYY'),
 (15, '🎺 Cold mess - Prateek Kuhad.mp3', 'Cold mess', 'musicfiles/🎺 Cold mess - Prateek Kuhad.mp3', 'imagefiles/Screenshot from 2021-03-09 23-10-55.png', 'JSYYY'),
 (16, 'ily i love you baby - Surf Mesa feat. Emilee.mp3', 'ily', 'musicfiles/ily i love you baby - Surf Mesa feat. Emilee.mp3', 'imagefiles/Screenshot from 2021-03-09 23-13-24.png', 'JSYYY'),
-(18, '🎺 Cold mess - Prateek Kuhad.mp3', 'defrt', 'musicfiles/🎺 Cold mess - Prateek Kuhad.mp3', 'imagefiles/x.jpg', 'JSY');
+(18, '🎺 Cold mess - Prateek Kuhad.mp3', 'defrt', 'musicfiles/🎺 Cold mess - Prateek Kuhad.mp3', 'imagefiles/x.jpg', 'JSY'),
+(19, 'Shayad.mp3', 'Shayad', 'musicfiles/Shayad.mp3', 'imagefiles/shayadimg.jpg', 'AakarshCE'),
+(20, 'Tu Hi Yaar Mera - Pati Patni Aur Woh (SongsMp3.Com).mp3', 'Tu hi yaar mera', 'musicfiles/Tu Hi Yaar Mera - Pati Patni Aur Woh (SongsMp3.Com).mp3', 'imagefiles/terayaarhumeinimg.jpg', 'AakarshCE'),
+(29, 'Buddhu Sa Mann – Kapoor & Sons Sidharth Alia Fawad Rishi Kapoor Armaan Amaal.mp3', 'Buddhu Sa maan', 'musicfiles/Buddhu Sa Mann – Kapoor & Sons Sidharth Alia Fawad Rishi Kapoor Armaan Amaal.mp3', 'imagefiles/buddhu sa mann.jpg', 'AakarshInamdar');
 
 --
 -- Indexes for dumped tables
@@ -71,7 +74,7 @@ ALTER TABLE `music_songs`
 -- AUTO_INCREMENT for table `music_songs`
 --
 ALTER TABLE `music_songs`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
